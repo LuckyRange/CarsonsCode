@@ -1,0 +1,7 @@
+stockTicker = input("Enter Stock Ticker Symbol")
+shares = float(inp("Enter Number Of Shares")
+cost = float(inp("Enter Cost Per Share")
+
+amountInvested = shares * cost
+
+print("Amount Invested: $", format(amountInvested, ".2f"))
