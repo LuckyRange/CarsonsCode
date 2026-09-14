@@ -1,0 +1,7 @@
+purchasePrice = float(input("Enter Purchase Price Per Share"))
+currentPrice = float(input("Enter Current Stock Price"))
+quantity = float(input("Enter Quantity Of Stock"))
+
+total = (currentPrice - purchasePrice) * (quantity)
+
+print("Change In Stock Value: $", format(total, ".2f"))
