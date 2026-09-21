@@ -1,0 +1,15 @@
+lastName = input("Enter Employee Last Name")
+salary = input("Enter salary")
+jobLevel = input("Enter Job Level")
+
+if jobLevel >= 10:
+bonusRate = .25
+elif jobLevel >=5:
+bonusRate = .20
+else:
+bonusRate = .10
+
+bonus = salary * bonusRate
+
+print (f"Employee Last Name: (lastName)")
+print (f"Bonus: (bonus: .2f)")
