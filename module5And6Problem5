@@ -1,0 +1,14 @@
+tickets input("Enter Number Of COncert Tickets")
+if tickets >= 25:
+price = 50.00 
+elif tickets >= 10:
+price = 60.00
+elif tickets >= 5:
+price = 70.00
+else:
+price = 75.00
+
+totalCost = tickets * price
+print (f"Number Of TIckets: (tickets)")
+print (f"Price Per TIcket: $ (price: .2f)")
+print (f"Total Cost: $(totalCost: .2f)")
