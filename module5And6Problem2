@@ -1,1 +1,18 @@
+quantity = input("Enter Quantity Of Widgets")
 
+if quantity > 10000:
+price = 10.00
+elif quantity >= 5000:
+price = 20.00
+else:
+price = 30.00
+
+extendedPrice = quanitity * price
+tax = extendedPrice * .07
+total = extendedPrice + tax
+
+print (f"Extended Price: $ (extendedPrice: .2f)")
+print (f"Tax Amount: $ (tax: .2f)")
+print (f"Total: $ (total: .2f)")
+
+ 
