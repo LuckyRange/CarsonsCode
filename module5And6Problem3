@@ -1,0 +1,17 @@
+part = input("Enter Part Number")
+quantity = input("Enter Quantity")
+
+if part == "10" or part == "55":
+unitCost = 1.00
+elif part == "99":
+unitCost = 2.00
+elif part == "80" or part == "70":
+UnitCost = 3.00
+else:
+UnitCost = 5.00
+
+totalCost = quantity * unitCost
+
+print(f"Part Number: (part)")
+print(f"Cost Per Unit: $(unitCost)")
+print(f"Total Cost: $(totalCost)")
