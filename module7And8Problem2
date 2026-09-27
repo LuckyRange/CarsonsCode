@@ -1,0 +1,9 @@
+start = input("Enter Start Value")
+stop = input("Enter Stop Value")
+increment = input("Enter  Increment Value")
+
+number = start
+
+while number <= stop:
+print("number")
+number + = increment
