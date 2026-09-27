@@ -13,4 +13,7 @@ else:
 bonus = salary * bonusRate
 totalBonus + = bonus
 
-Print(lastName, salary, bonus)
+Print("Last Name", lastName)
+Print("Salary", salary)
+Print("Bonus", bonus)
+
