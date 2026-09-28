@@ -1,0 +1,13 @@
+answer = input("Do You Want To Enter Data?")
+
+while answer == "yes"
+lastName = input("Enter Last Name")
+exam1 = input("Enter First Exam Score")
+exam2 = input("Enter Second Exam Score")
+
+average = (exam1 + exam2) / 2
+
+print("Last Name", lastName)
+print("Average", average)
+
+answer = input("Do You Want To Enter Data Again?")
