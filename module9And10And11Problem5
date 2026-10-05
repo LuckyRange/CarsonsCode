@@ -1,0 +1,17 @@
+def calculateDiscount(quantity, price, discountRate)
+total = quantity * price
+discount = total * discountRate
+discountedPrice = total - discount
+return discount
+return discountedPrice
+
+quantity = input("Enter Quantity")
+price float(input("Enter Price"))
+discountRate = float(input("Enter Discount Rate))
+
+discount, discountedPrice = calculateDiscount(quantity, price, discountRate)
+
+print("Quantity", quantity)
+print("Price", price)
+print("Discount Amount", discountAmount)
+print("Discounted Price", discountedPrice)
