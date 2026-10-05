@@ -1,0 +1,27 @@
+def forecast(month, sales)
+if month in ("Jan", "Feb", "Mar")
+percent = 0.10
+elseif month in ("April", "May", "June")
+percent = 0.15
+elseif moth in ("Jul", "Aug", "Sep")
+percent = 0.20
+else
+percent = 0.25
+
+nextMonthSales = sales * (1 + percent)
+return nextMonthSales
+
+again = "Yes"
+
+while again = "Yes"
+lastName = input("Enter Last Name")
+month = input("Enter Month)
+sales = float(input("Enter Sales"))
+
+nextMonthSales = forecast(month, sales)
+
+print("Next Months Sales", nextMonthSales
+
+again = input("Do You Want To Do Again? (Yes Or No)"
+
+
