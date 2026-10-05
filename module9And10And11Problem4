@@ -1,0 +1,40 @@
+def carPrice(msrp, make, model, electricVehicleCode)
+if make = "Honda" and model = "Accord"
+discount 0.10
+elseif make = "Toyota" and model = "Rav4"
+discount = 0.15
+elseif electricVehicleCode = "Yes"
+discount = 0.30
+else
+discount = .05
+
+discountAmount = msrp * discount
+newPrice = msrp - discountAmount
+total = newPrice * 1.07
+
+return total
+
+totalMsrp = 0
+totalSales = 0
+again = "Yes"
+
+while again = "Yes"
+
+make = input("Enter Make") 
+model = input("Enter Model")
+electricVehicleCode = input("Is Vehicle Electric? (Yes Or No)")
+msrp = float(input("Enter MSRP"))
+
+total = carPrice(msrp, make, model, electricVehicleCode)
+
+print("Make", make)
+print("Model", model)
+print("Out The Door Price", total)
+
+totalMsrp = totalMsrp + msrp
+totalSales = totalSales + total
+
+again = input("Do You Want To Enter Another Car? (Yes Or NO)")
+
+print("Total MSRP", totalMSRP)
+print("Total Sales Price", totalSales
