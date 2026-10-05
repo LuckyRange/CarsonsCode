@@ -1,0 +1,26 @@
+def calculateTotal(quantity, price):
+total = quantity * price
+
+if total > 10000:
+total = total * 0.90
+
+return total
+
+totalExtendedPrice = 0
+
+while true: 
+quantity = input("Enter Quantity, Enter 0 to End")
+
+if quantity = 0 break
+
+price = float(input("Enter Price") 
+
+total = calculateTotal(quantity, price)
+
+print("Quantity", quantity)
+print("Price", price)
+print("Total", total)
+
+totalExtendedPrice = totalExtendedPrice + total
+
+print(Total Extended Price", totalExtendedPrice)
