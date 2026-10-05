@@ -1,0 +1,22 @@
+def battingAverage(hits, atBats)
+battingAverage = hits / atBats
+return battingAverage
+
+count = 0
+
+while true:
+lastName = input("Enter Last Name (0 To End)")
+
+if lastName = "0" break
+
+hits = input("Enter Number Of Hits") 
+atBats = input(Enter Number Of At Bats)
+
+battingAverage = battingAverage(hits, atBats)
+
+print("Last Name", lastName)
+print("Batting Average", batting Average)
+
+count = count + 1 
+
+print("Number Of Players Entered", count)
