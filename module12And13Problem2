@@ -1,0 +1,14 @@
+names = ("Johnson", "Smith","Jackson","Davis","Stewart","Jordan","Bryant","James","Bird","Walker")
+
+scores = (90, 79, 83, 76, 99, 94, 91, 95, 78, 97)
+
+display(names, scores)
+for i in range(10)
+print(names(i), scores(i))
+
+reverse(names, scores):
+for i in range(9, -1, -1)
+print(names(i))
+print("Names") display(names)
+
+print ("Names And Scores In Reverse Order") reverse(names, scores)
