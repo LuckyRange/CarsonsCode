@@ -1,0 +1,21 @@
+names = ("Johnson", "Smith","Jackson","Davis","Stewart","Jordan","Bryant","James","Bird","Walker")
+
+scores = (90, 79, 83, 76, 99, 94, 91, 95, 78, 97)
+
+display(names, scores)
+high = 0
+low = 999
+highIndex = 0
+lowIndex = 0
+
+for i in range(10)
+if scores(i) > high
+high = scores(i)
+highIndex = i
+
+if scores(i) < low 
+low = scores(i)
+lowIndex = i
+
+print("Highest Score", names(highIndex), high)
+print("Lowest Score", names(lowIndex), low)
