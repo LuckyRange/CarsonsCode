@@ -1,0 +1,12 @@
+grades = ("Johnson": 90, "Smith": 79,"Jackson": 83,"Davis": 76,"Stewart": 99,"Jordan":94,"Bryant": 91,"James": 95,"Bird": 78,"Walker": 97)
+
+display(grades)
+total = 0
+
+print("Name; Grade")
+
+for name in grades
+total = total + grades(name)
+
+average = total / 10
+print("Class Average", average)
