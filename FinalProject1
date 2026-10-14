@@ -8,6 +8,20 @@ def menu():
   print("3. Find Workouts")
   print("4. Quit")
 
+def addWorkout():
+name = input("Enter Workout Name")
+print("Workout Added!")
+
+def viewWorkouts():
+for workout in workouts:
+print(workout)
+
+def findWorkout():
+name = input("Enter Workout Name That You Are Looking To Find")
+for workout in workouts:
+  if name in workout:
+    print("Workout Found", workout)
+
 def main():
   selection = " "
 
@@ -21,6 +35,8 @@ elif selection == "2":
   viewWorkouts()
 elif selection == "3":
   findWorkout()
+elif selection == "4":
+  print("Goodbye!")
 else:
   print("Your Selection Is Invalid")
 
