@@ -1,0 +1,14 @@
+workouts = []
+
+def menu():
+  print("Workout Tracker")
+  print("---------------")
+  print("1; Add Workout")
+  print("2; View Workouts")
+  print("3; Find Workouts")
+  print("4; Quit")
+
+def main():
+  selection = " "
+
+
