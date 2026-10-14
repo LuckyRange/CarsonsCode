@@ -19,7 +19,7 @@ if selection == "1":
   addWorkout()
 elif selection == "2":
   viewWorkouts()
-elif selection == "3"
+elif selection == "3":
   findWorkout()
 else:
   print("Your Selection Is Invalid")
