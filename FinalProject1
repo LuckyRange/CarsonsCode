@@ -26,7 +26,7 @@ def main():
   selection = " "
 
 while selection != "4":
-  menu()
+  main()
   selection = input("Make A Selection")
 
 if selection == "1":
@@ -40,6 +40,6 @@ elif selection == "4":
 else:
   print("Your Selection Is Invalid")
 
-menu()
+main()
 
 
