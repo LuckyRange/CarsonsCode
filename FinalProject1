@@ -24,10 +24,9 @@ for workout in workouts:
 
 def main():
   selection = " "
-
-while selection != "4":
-  main()
-  selection = input("Make A Selection")
+  while selection != "4":
+    menu()
+    selection = input("Make A Selection")
 
 if selection == "1":
   addWorkout()
