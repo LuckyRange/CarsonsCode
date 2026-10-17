@@ -7,7 +7,7 @@ class Student:
       self.enrolledCredits = enrolledCredits
 
   def tuitionOwed(self):
-      if self.destrictCode == 'I':
+      if self.districtCode == 'I':
           return self.enrolledCredits * 250
       else:
           return self.enrolledCredits * 500
