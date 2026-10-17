@@ -15,5 +15,5 @@ class Student:
 student_1 = Student('Jon', 'Jones', 'I', 15)
 student_2 = Student('Daniel', 'Cormier', 'O', 12)
 
-print(student_1.tuition())
-print(student_2.tuition())
+print(student_1.tuitionOwed())
+print(student_2.tuitionOwed())
