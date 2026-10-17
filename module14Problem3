@@ -1,23 +1,21 @@
 class Student:
 
-    tuitionRate = {'I': 250, '0': 500, 'X': 800, 'G': 250}
+    tuitionRate = {'I': 250, 'O': 500, 'X': 800, 'G': 250}
 
-  def __init__(self, first, last, districtCode, enrolledCredits):
+    def __init__(self, first, last, districtCode, enrolledCredits):
       self.first = first
       self.last = last
       self.districtCode = districtCode
       self.enrolledCredits = enrolledCredits
 
-  def tuitionOwed(self):
-      return self.enrolledCredits * Student.tuitionRate(self.districtCode)
+    def tuitionOwed(self):
+      return self.enrolledCredits * Student.tuitionRate[self.districtCode]
 
 
 student_1 = Student('Jon', 'Jones', 'I', 15)
 student_2 = Student('Daniel', 'Cormier', 'O', 12)
 student_3 = Student('Tom', 'Brady', 'X', 14)
 student_4 = Student('Lebron', 'James', 'G', 15)
-
-
 
 print(student_1.tuitionOwed())
 print(student_2.tuitionOwed())
