@@ -1,13 +1,13 @@
 class Student:
 
-  def __init__(self, firat, last, districtCode, enrolledCredits):
+  def __init__(self, first, last, districtCode, enrolledCredits):
       self.first = first
       self.last = last
       self.districtCode = districtCode
       self.enrolledCredits = enrolledCredits
 
   def tuitionOwed(self):
-      if self.destrictCode = 'I':
+      if self.destrictCode == 'I':
           return self.enrolledCredits * 250
       else:
           return self.enrolledCredits * 500
