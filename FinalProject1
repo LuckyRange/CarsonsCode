@@ -10,7 +10,7 @@ def menu():
 
 def addWorkout():
     name = input("Enter Workout Name")
-    workouts.append()
+    workouts.append(name)
     print("Workout Added!")
 
 def viewWorkouts():
@@ -19,9 +19,15 @@ def viewWorkouts():
 
 def findWorkout():
     name = input("Enter Workout Name That You Are Looking To Find")
+    found = False
+    
     for workout in workouts:
         if name in workout:
             print("Workout Found", workout)
+            found = True
+        
+    if found == False:
+            print("Sorry, unable to find", name)
 
 def main():
     selection = " "
