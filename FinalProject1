@@ -9,36 +9,36 @@ def menu():
   print("4. Quit")
 
 def addWorkout():
-name = input("Enter Workout Name")
-print("Workout Added!")
+    name = input("Enter Workout Name")
+    workouts.append()
+    print("Workout Added!")
 
 def viewWorkouts():
-for workout in workouts:
-print(workout)
+    for workout in workouts:
+        print(workout)
 
 def findWorkout():
-name = input("Enter Workout Name That You Are Looking To Find")
-for workout in workouts:
-  if name in workout:
-    print("Workout Found", workout)
+    name = input("Enter Workout Name That You Are Looking To Find")
+    for workout in workouts:
+        if name in workout:
+            print("Workout Found", workout)
 
 def main():
-  selection = " "
-  while selection != "4":
-    menu()
-    selection = input("Make A Selection")
+    selection = " "
+  
+    while selection != "4":
+        menu()
+        selection = input("Make A Selection")
 
-if selection == "1":
-  addWorkout()
-elif selection == "2":
-  viewWorkouts()
-elif selection == "3":
-  findWorkout()
-elif selection == "4":
-  print("Goodbye!")
-else:
-  print("Your Selection Is Invalid")
-
+        if selection == "1":
+            addWorkout()
+        elif selection == "2":
+            viewWorkouts()
+        elif selection == "3":
+            findWorkout()
+        elif selection == "4":
+            print("Goodbye!")
+        else:
+            print("Your Selection Is Invalid")
+   
 main()
-
-
