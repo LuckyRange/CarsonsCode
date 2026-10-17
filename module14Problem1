@@ -8,6 +8,9 @@ class Employee:
   def fullname(self):
       return ('{} {}'.format(self.first, self.last)
 
+  def bonus(self, bonusRate):
+    return self.pay * bonusRate
+
 emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test','User',60000)
 
@@ -18,3 +21,6 @@ print(emp_1.email)
 print(emp_2.email)
 
 print(emp_1.fullname())
+
+bonusRate = float(input("Enter Bonus Rate:"))
+print("Bonus:", emp_1.bonus(bonusRate))
